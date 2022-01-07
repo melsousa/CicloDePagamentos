@@ -5,11 +5,12 @@
 > Status: Concluido ✔️
 
 ## Funcionalidades
-[X] Cadastro de créditos e débitos, com data
-[X] Edição de créditos e débitos já existentes
-[X] Exclusão de créditos e débitos já existentes
-[X] Cadastramento de novos usúarios
-[X] Login
+
+- [X] Cadastro de créditos e débitos, com data
+- [X] Edição de créditos e débitos já existentes
+- [X] Exclusão de créditos e débitos já existentes
+- [X] Cadastramento de novos usúarios
+- [X] Login
 
 ## **Pré requisitos**
 Antes de começar, será preciso ter instalado na sua máquina algumas ferramentas :
@@ -30,6 +31,8 @@ $ npm i
 # Rode o comando para iniciar
 $ npm run dev
 
+# Abra outro terminal para rodar o backend
+
 # cd frontend
 # Instale as dependências do frontend
 $ npm i
@@ -38,3 +41,16 @@ $ npm run start
 
 
 ```
+
+### 🛠 Tecnologias
+As seguintes ferramentas foram usadas na construção do projeto:
+- [Node.js](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
+- [Redux](https://redux.js.org/)
+- [MongoDB](https://www.mongodb.com/)
+- [Mongoose](https://mongoosejs.com/)
+
+### Autora
+  <b>Melissa de Sousa</b>
+  
+  - <a href="https://www.linkedin.com/in/melissa-de-sousa-9815b6198/">Linkedin</a>
