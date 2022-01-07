@@ -1,5 +1,4 @@
 import '../common/template/dependencies'
-
 import React, { Component } from 'react'
 import axios from 'axios'
 import { connect } from 'react-redux'
@@ -10,17 +9,14 @@ import Auth from '../auth/auth'
 import { validateToken } from '../auth/authActions'
 
 class AuthOrApp extends Component {
-
     componentWillMount() {
         if (this.props.auth.user) {
-            //se o usuário estover preenchido, vai validar o token
             this.props.validateToken(this.props.auth.user.token)
         }
     }
 
     render() {
         const { user, validToken } = this.props.auth
-
         if (user && validToken) {
             axios.defaults.headers.common['authorization'] = user.token
             return <App>{this.props.children}</App>
@@ -31,6 +27,7 @@ class AuthOrApp extends Component {
         }
     }
 }
+
 const mapStateToProps = state => ({ auth: state.auth })
 const mapDispatchToProps = dispatch => bindActionCreators({ validateToken }, dispatch)
 export default connect(mapStateToProps, mapDispatchToProps)(AuthOrApp)

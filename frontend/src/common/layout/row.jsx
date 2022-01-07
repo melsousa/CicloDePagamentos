@@ -1,7 +1,5 @@
-import React from "react";
+import React from 'react'
 
-const Row = props => (
+export default props => (
     <div className='row'>{props.children}</div>
 )
-
-export default Row

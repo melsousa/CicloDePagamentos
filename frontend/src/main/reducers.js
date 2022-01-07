@@ -7,7 +7,6 @@ import TabReducer from '../common/tab/tabReducer'
 import BillingCycleReducer from '../billingCycle/billingCycleReducer'
 import AuthReducer from '../auth/authReducer'
 
-//mapeando os reducers
 const rootReducer = combineReducers({
     dashboard: DashboardReducer,
     tab: TabReducer,

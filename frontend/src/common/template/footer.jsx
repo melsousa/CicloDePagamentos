@@ -1,12 +1,10 @@
-import React from "react";
+import React from 'react'
 
-const Footer = props => (
-    <footer className="main-footer">
-        <strong>
-            Copyright &copy; 2021
-            <a href="https://github.com/melsousa" target='_blank'> Github</a>
+export default props => (
+    <footer className='main-footer'> 
+        <strong> 
+            Github &copy; 2021
+            <a href='https://github.com/melsousa' target='_blank'> melsousa</a>.
         </strong>
     </footer>
 )
-
-export default Footer

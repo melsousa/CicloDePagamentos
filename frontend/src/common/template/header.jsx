@@ -8,7 +8,7 @@ export default props => (
             <span className='logo-lg'>
                 <i className='fa fa-money'></i>
                 <b> My</b> Money
-            </span>
+            </span>        
         </a>
         <nav className='navbar navbar-static-top'>
             <a href className='sidebar-toggle' data-toggle='offcanvas'></a>
