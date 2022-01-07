@@ -20,25 +20,34 @@ Antes de começar, será preciso ter instalado na sua máquina algumas ferrament
   
 ### Rodando a aplicação
 ```bash
-# Clone este repositório
-# git clone https://github.com/melsousa/CicloDePagamentos.git
-# Acesse a pasta do projeto em seu terminal/cmd
-# cd ..
+# Abra o terminal e clone este repositório
 
-# cd backend
-# Instale as dependências do backend
-$ npm i
-# Rode o comando para iniciar
-$ npm run dev
+$ git clone https://github.com/melsousa/CicloDePagamentos.git
+
+# Rode o comando para inicializar o BD (Windows)
+  $ cd CicloDePagamentos
+  $ cd backend
+  $ mongod
 
 # Abra outro terminal para rodar o backend
 
-# cd frontend
-# Instale as dependências do frontend
-$ npm i
-# Rode o comando para iniciar
-$ npm run start
+# Instale as dependências do backend
+  $ cd CicloDePagamentos
+  $ cd backend
+  $ npm i
+# Rode o comando para iniciar a aplicação
+  $ npm run dev
 
+# Abra outro terminal para rodar o frontend
+
+# Instale as dependências do frontend
+  $ cd CicloDePagamentos
+  $ cd frontend
+  $ npm i
+# Rode o comando para iniciar a aplicação
+  $ npm run start
+  
+# A aplicação iniciará na porta 3000 - acesse <http://localhost:3000>
 
 ```
 
@@ -49,6 +58,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Redux](https://redux.js.org/)
 - [MongoDB](https://www.mongodb.com/)
 - [Mongoose](https://mongoosejs.com/)
+- [Express](https://expressjs.com/pt-br/)
 
 ### Autora
   <b>Melissa de Sousa</b>
